@@ -17,6 +17,14 @@
                 font-weight: 300;
             }
 
+            .progress-container > div {
+                margin-bottom: 30px;
+            }
+
+            .progress-container > div > h3 {
+                font-size: larger;
+            }
+
             </style>
     </head>
     <body>
@@ -54,9 +62,56 @@
             <div class="container progress-container">
                 <h2><i>Progrès</i></h2> <br>
                 <div> 
-                    <h3>Semaine 1</h3> 
-                    <p></p>
+                    <h3>Semaine 1 (15 septembre)</h3> 
+                    <p>On a eu notre première rencontre qui était individuelle. Lors de cette première rencontre, nous 
+                        avons parlé des étapes à suivre pour atteindre les objectifs du projet pour cette session. Nous 
+                        avons aussi finalisé l'emploi du temps hebdomadaire en choisissant un jour et une heure qui 
+                        conviennent à moi et à mes coéquipiers. De plus, nous avons discuté des tâches à réaliser pour 
+                        la semaine prochaine, notamment trouver une idée de jeu original, avec deux joueurs, qui se joue 
+                        à tour de rôle dans un cadre de tournoi, un peu comme le tic-tac-toe sur une grille 3x3. Le but 
+                        avec jeu est de présenter ce jeu à l'IA et d'observer comment elle interprète un nouveau jeu et 
+                        apprend à y jouer, vois si on est capable de jouer avec l'IA avec succès. Nous devons aussi s'assurer 
+                        d'avoir installé Dynotate sur notre machine et d'être capable de l'utiliser sans problème.
+                    </p>
                 </div>
+                <div> 
+                    <h3>Semaine 2 (22 septembre)</h3> 
+                    <p>J'ai pensé à une idée de jeu original qui se base sur un quadrillage, dont la taille reste à déterminer, 
+                        mais j'ai commencé avec un quadrillage de 10x10. Le principe est que chaque joueur utilise un seul 
+                        symbole unique, qu'il place à chaque tour sur une intersection du quadrillage. À chaque tour, le joueur 
+                        place son symbole pour essayer de former un polygone uniquement avec ses propres symboles afin de gagner 
+                        des points. Une fois dessiné, chaque polygone rapporte des points au joueur qui l'a créé, et plus le 
+                        polygone est difficile à former, plus il rapporte de points. Le jeu se termine lorsqu'un joueur atteint 
+                        un certain nombre de points prédéfini ou lorsque le quadrillage est rempli. Le gagnant est celui qui 
+                        atteint l'objectif ou qui a le plus de points à la fin. L'application Dynotate a été installée avec succès 
+                        et je peux l'utiliser sans problème.
+                    </p>
+                </div>
+                <div> 
+                    <h3>Semaine 3 (29 septembre)</h3> 
+                    <p> Cette semaine, nous avons eu pour tâche de finaliser et de développer complètement chacun notre jeu, c'est-à-dire 
+                        de définir les règles et les conditions de victoire. J'ai commencé à réfléchir à la manière dont le jeu pourrait 
+                        être joué, en établissant le système de points, ainsi que les règles et les contraintes. Voici une version plus 
+                        robuste du jeu: <br>
+                        Jeu consiste d'un quadrillage 8x8. Un joueur a comme symbole un point rempli et l'autre joueur a un point vide. 
+                        À chaque tour, chaque joueur place un point pour créer son polygone. Si le point d'un joueur se trouve sur la bordure du polygone de l'autre avant que ce polygone 
+                        soit formé, cela entraîne une pénalité de -2 points. Les polygones possibles, et donc le système de points, dans 
+                        ce jeu sont :
+
+                        <ul>
+                            <li>Triangle (équilatéral ou isocèle) : 2 points</li>
+                            <li>Carré : 2 points</li>
+                            <li>Losange : 4 points</li>
+                            <li>Hexagone (si possible) : 6 points</li>
+                        </ul>
+
+                        Le gagnant sera le joueur qui atteint 15 points en premier ou qui a le plus de points à la fin.
+                    </p>
+                </div>
+                <div> 
+                    <h3>Semaine 4 (6 octobre)</h3> 
+                    <p>
+                    </p>
             </div>
         </div>
 
